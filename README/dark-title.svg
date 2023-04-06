@@ -20,7 +20,6 @@
                 max-width: 80px;
             }
             .package-name .part-1 {
-                font-family: 'Roboto Mono', sans-serif;
                 font-size: 3em;
                 font-weight: 400;
                 color: white;
