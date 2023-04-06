@@ -1,6 +1,6 @@
 declare global {
   interface Console {
-    image(url: string, params: {width?: number}): void
+    image(url: string, params: { width?: number }): void
   }
 }
 
@@ -13,8 +13,9 @@ async function image2Base64(src: string) {
     image.onload = resolve
     image.onerror = reject
   })
-  
+
   const canvas = document.createElement('canvas')
+
   canvas.width = image.width
   canvas.height = image.height
   const ctx = canvas.getContext('2d')
@@ -23,14 +24,14 @@ async function image2Base64(src: string) {
     return {
       base64Src: canvas.toDataURL('image/png'),
       width: image.width,
-      height: image.height
+      height: image.height,
     }
   } else {
     throw new Error('Canvas context is null')
   }
 }
 
-async function consoleImage(url: string, params?: {width?: number}) {
+async function consoleImage(url: string, params?: { width?: number }) {
   const imageInfo = await image2Base64(url)
 
   if (typeof params?.width === 'number') {
@@ -45,10 +46,10 @@ async function consoleImage(url: string, params?: {width?: number}) {
     `padding:${imageInfo.height}px ${imageInfo.width}px`,
     `background:url(${imageInfo.base64Src})`,
     'background-repeat:no-repeat',
-    'background-size:contain'
+    'background-size:contain',
   ].join(';')
 
-  console.log('%c ', style);
+  console.log('%c ', style)
 }
 
 console.image = consoleImage
