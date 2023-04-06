@@ -1,5 +1,5 @@
 {
-	"name": "conosle.image",
+	"name": "@consolejs/console.image",
 	"version": "1.0.0",
 	"description": "Conosle a image in browser",
 	"private": false,
@@ -20,5 +20,8 @@
 	"devDependencies": {
 		"typescript": "^5.0.3",
 		"vite": "^4.2.1"
+	},
+	"publishConfig": {
+    "access": "public"
 	}
 }
