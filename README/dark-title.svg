@@ -1,0 +1,46 @@
+ <svg fill="none" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            * {
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+            }
+            .container {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .package-name {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                max-width: 80px;
+            }
+            .package-name .part-1 {
+                font-family: 'Roboto Mono', sans-serif;
+                font-size: 3em;
+                font-weight: 400;
+                color: white;
+                text-shadow: 1px 0 10px rgba(0,0,0,0.5);
+            }
+            .package-name .part-2 {
+                font-size: 3.2em;
+                font-weight: 900;
+                background: linear-gradient(60deg, #E21143, #FFB03A);
+                background-clip: text;
+                -webkit-background-clip: text;
+                text-fill-color: transparent;
+                -webkit-text-fill-color: transparent;
+            }
+            </style>
+            <div class="container">
+                <h1 class="package-name">
+                    <span class="part-1">console.</span><span class="part-2">image</span>
+                </h1>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
