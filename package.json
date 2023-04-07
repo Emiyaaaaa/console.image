@@ -1,6 +1,6 @@
 {
 	"name": "@consolejs/console.image",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Conosle a image in browser",
 	"private": false,
 	"author": {
