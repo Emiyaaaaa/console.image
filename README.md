@@ -25,7 +25,7 @@ import consoleImage form '@consolejs/console.image'
 consoleImage('https://www.img.com/image.png') // image url
 ```
 
-## Support: 
+## Support
 - .png
 - .jpg
 - .jpeg
