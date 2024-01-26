@@ -16,18 +16,24 @@ npm i @consolejs/console.image
 
 ## Usage
 
-```js
-import '@consolejs/console.image'
-console.image('https://www.img.com/image.png') // image url
+```ts
+import '@consolejs/console.image';
+console.image('https://www.img.com/image.png');
 
 // or
-import consoleImage form '@consolejs/console.image'
-consoleImage('https://www.img.com/image.png') // image url
+import consoleImage form '@consolejs/console.image';
+consoleImage('https://www.img.com/image.png');
+```
+
+console.image with width
+```js
+console.image('https://www.img.com/image.png', { width: 100 })
 ```
 
 ## Support
 - .png
 - .jpg
+- .svg
 - .jpeg
 - .gif
 
