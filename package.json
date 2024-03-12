@@ -3,6 +3,7 @@
 	"version": "1.0.1",
 	"description": "Conosle a image in browser",
 	"private": false,
+	"repository": "Emiyaaaaa/console.image",
 	"author": {
 		"name": "Emiya",
 		"email": "emiya@emiya.com.cn"
